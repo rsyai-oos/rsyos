@@ -1,0 +1,20 @@
+[package]
+name = "rsyos"
+version = "0.0.1"
+description = "A operating system written in Rust"
+authors = ["RsyAI Developers"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+edition = "2024"
+rust-version = "1.86"
+documentation = "https://docs.rs/rsyos"
+repository = "https://github.com/rsyai-oos/rsyos.git"
+keywords = ["os"]
+categories = ["os"]
+
+[features]
+
+[dependencies]
+hex = "0.4.3"
+
+[dev-dependencies]
